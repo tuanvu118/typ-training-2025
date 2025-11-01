@@ -64,22 +64,21 @@ Spring Boot tổ chức ứng dụng theo mô hình nhiều tầng:
 - **Model:** Đại diện cho đối tượng dữ liệu trong hệ thống.
 
 Luồng hoạt động của API:
-Client (Postman / Frontend) → Controller → Service → Repository → Dữ liệu
+Controller → Service → Repository → Dữ liệu
 
 ---
 
 ### 5. Kiểm thử API bằng Postman
 
 Postman là công cụ phổ biến để kiểm thử API.  
-Người dùng có thể gửi các loại yêu cầu HTTP (GET, POST, PUT, DELETE) đến server và nhận phản hồi ở dạng JSON.  
-Mỗi API được định nghĩa với đường dẫn (endpoint) rõ ràng và có thể kiểm tra kết quả trực tiếp.
+ Có thể gửi các loại yêu cầu HTTP (GET, POST, PUT, DELETE) đến server và nhận phản hồi ở dạng JSON.
 
 ---
 
 ### VIDEO DEMO
 
 **Link video:**
-👉 [Phần 1](https://drive.google.com/drive/u/0/folders/1OKaZiGLvATTRUC04BU2i0jQzJgpKZwCh)
+[Phần 1](https://drive.google.com/drive/u/0/folders/1OKaZiGLvATTRUC04BU2i0jQzJgpKZwCh)
 
 ---
 
@@ -137,16 +136,7 @@ Các thuộc tính cơ bản:
 
 ---
 
-### 5. Ưu điểm khi sử dụng JPA & Hibernate
-
-- Tiết kiệm thời gian khi thao tác với dữ liệu.
-- Tự động ánh xạ bảng và đối tượng.
-- Dễ dàng mở rộng và thay đổi cấu trúc dữ liệu.
-- Tích hợp tốt với Spring Boot, chỉ cần cấu hình một lần.
-
----
-
 ### VIDEO DEMO
 
 **Link video:**
-👉 [Phần 2](https://drive.google.com/drive/u/0/folders/1OKaZiGLvATTRUC04BU2i0jQzJgpKZwCh)
+[Phần 2](https://drive.google.com/drive/u/0/folders/1OKaZiGLvATTRUC04BU2i0jQzJgpKZwCh)
