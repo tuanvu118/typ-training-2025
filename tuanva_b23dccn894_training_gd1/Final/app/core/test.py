@@ -1,0 +1,4 @@
+from app.core.redis import redis_client
+
+redis_client.set("hello", "redis")
+print(redis_client.get("hello"))
